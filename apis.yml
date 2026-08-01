@@ -1,8 +1,27 @@
 aid: psdcitywide
-name: Psdcitywide
-description: 'Psdcitywide is a company surfaced as a portfolio company of norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/psdcitywide.png
+name: PSD Citywide
+description: 'PSD Citywide is a SaaS provider of enterprise asset management (EAM) and
+  public-sector software for North American municipalities and government organizations.
+  Its integrated Citywide platform spans asset management, maintenance and work-order
+  management, GIS integration (ESRI-powered mapping), permitting, planning and licensing
+  with citizen portals, multi-year budgeting and forecasting, facility/space management
+  (Spaces), and a field mobile app, alongside asset-management advisory and grant services.
+  The homepage references a "robust API" for integration and customization, but no public
+  developer portal, API reference, SDKs, or GitHub organization were found during enrichment;
+  end-user product documentation is published in a HappyFox-powered help center. Added to
+  the API Evangelist network via the norwest-venture-partners portfolio.'
 url: https://raw.githubusercontent.com/api-evangelist/psdcitywide/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Unknown
+- Government
+- GovTech
+- Asset Management
+- Enterprise Asset Management
+- Municipal Software
+- Public Sector
+- SaaS
+- GIS
+- Permitting
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +50,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/psdcitywide-domain-security.yml
 - type: Website
-  url: https://psdcitywide.com
+  url: https://www.psdcitywide.com/
+- type: About
+  url: https://www.psdcitywide.com/home/about/
+- type: HelpCenter
+  url: https://help.psdcitywide.com/
+- type: Support
+  url: https://www.psdcitywide.com/contact/
+- type: Blog
+  url: https://www.psdcitywide.com/news/
+- type: SignUp
+  url: https://www.psdcitywide.com/request-a-demo/
+- type: TermsOfService
+  url: https://www.psdcitywide.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.psdcitywide.com/privacy-policy/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

@@ -1,0 +1,14 @@
+{
+  "repo": "psdcitywide",
+  "feeds": [
+    {
+      "source": "https://www.psdcitywide.com/contact/",
+      "feed_url": "https://www.psdcitywide.com/feed/",
+      "title": "",
+      "saved": 2,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 2,
+  "fetched": "2026-07-25T15:00:33Z"
+}
